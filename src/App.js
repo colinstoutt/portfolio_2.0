@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Nav from "./components/Nav";
+import Index from "./pages/Index";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Nav />
+      <Index />
+    </div>
+  );
 }
 
 export default App;
